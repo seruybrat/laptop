@@ -1,0 +1,8 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: $root-font-size;
+
+    @media (max-width: $breakpoint-tablet) {
+        font-size: 8px;
+    }
+}
